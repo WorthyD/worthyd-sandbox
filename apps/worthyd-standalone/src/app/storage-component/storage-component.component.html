@@ -1,0 +1,23 @@
+<form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      [(ngModel)]="model.name"
+      name="name"
+    />
+  </div>
+  <button
+    type="submit"
+    class="btn btn-success"
+    [disabled]="!heroForm.form.valid"
+  >
+    Submit
+  </button>
+</form>
+<div>
+  <h3>Saved Value</h3>
+  {{ displayModel }}
+</div>

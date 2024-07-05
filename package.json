@@ -2,7 +2,10 @@
   "name": "@worthyd-sandbox/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "module": "nx run worthyd-module:serve --port=4321",
+    "standalone": "nx run worthyd-standalone:serve --port=4322"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
@@ -14,6 +17,7 @@
     "@angular/platform-browser-dynamic": "~17.3.0",
     "@angular/router": "~17.3.0",
     "@nx/angular": "19.0.0",
+    "idb-keyval": "^6.2.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
