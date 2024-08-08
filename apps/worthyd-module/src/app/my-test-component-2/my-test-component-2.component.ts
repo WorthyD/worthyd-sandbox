@@ -6,7 +6,7 @@ import { MyTestComponent3Component } from '../my-test-component-3/my-test-compon
   selector: 'app-my-test-component-2',
   standalone: true,
   imports: [MyTestComponent3Component],
-    providers: [MyTestDataService],
+  providers: [MyTestDataService],
   templateUrl: './my-test-component-2.component.html',
   styleUrl: './my-test-component-2.component.css',
 })

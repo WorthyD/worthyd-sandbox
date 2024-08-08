@@ -16,20 +16,3 @@ export class IdbKeyValService implements DataStoreClass {
     return set(key, value, customStore || this.defaultStore);
   }
 }
-
-
-
-// @Injectable()
-// export class IdbKeyValService2 implements DataStoreClass {
-//   defaultStore: UseStore;
-//   constructor() {
-//     this.defaultStore = createStore('worthyd-store', 'data');
-//   }
-
-//   get<T = any>(key: string, customStore = undefined): Promise<T | undefined> {
-//     return get(key, customStore || this.defaultStore);
-//   }
-//   set(key: string, value: any, customStore = undefined): Promise<void> {
-//     return set(key, value, customStore || this.defaultStore);
-//   }
-// }

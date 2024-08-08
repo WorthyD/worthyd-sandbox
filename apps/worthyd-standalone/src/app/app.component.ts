@@ -5,7 +5,11 @@ import { StorageComponentComponent } from './storage-component/storage-component
 
 @Component({
   standalone: true,
-  imports: [MyTestComponentComponent, StorageComponentComponent, RouterModule],
+  imports: [
+    MyTestComponentComponent,
+    StorageComponentComponent,
+    RouterModule,
+  ],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
