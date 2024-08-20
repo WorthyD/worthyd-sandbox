@@ -6,9 +6,19 @@ import { MyTestDataService } from '../my-test-data.service';
   selector: 'app-my-test-component',
   standalone: true,
   imports: [CommonModule],
-  providers: [MyTestDataService],
-  templateUrl: './my-test-component.component.html',
-  styleUrl: './my-test-component.component.css',
+  //providers: [MyTestDataService],
+  template: `
+    <h1>Component 1 - {{ count }}</h1>
+    <button (click)="addToCounter()">Increase</button>
+  `,
+  styles: [
+    `
+      :host {
+        border: 1px solid black;
+        margin: 4px;
+      }
+    `,
+  ],
 })
 export class MyTestComponentComponent {
   constructor(private myTestDataService: MyTestDataService) {}

@@ -1,5 +1,5 @@
 import { Route } from '@angular/router';
-import { MyProvderTesterComponent } from './my-provder-tester/my-provder-tester.component';
+import { MyProviderTesterComponent } from './my-provider-tester/my-provider-tester.component';
 import { CounterComponent } from './counter/counter.component';
 import { ProviderServiceService } from './services/provider-service.service';
 
@@ -10,12 +10,12 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'test',
-    component: MyProvderTesterComponent,
-    providers:[
+    component: MyProviderTesterComponent,
+    providers: [
       {
         provide: ProviderServiceService,
         useFactory: () => new ProviderServiceService('Routes'),
       },
-    ]
+    ],
   },
 ];

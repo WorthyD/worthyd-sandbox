@@ -5,8 +5,16 @@ import { MyTestDataService } from '../my-test-data.service';
   selector: 'app-my-test-component-3',
   standalone: true,
   imports: [],
-  templateUrl: './my-test-component-3.component.html',
-  styleUrl: './my-test-component-3.component.css'
+  template: '<h1>Component 3 - {{ count }}</h1>',
+  styles: [
+    `
+      :host {
+        display: block;
+        border: 1px solid black;
+        margin: 4px;
+      }
+    `,
+  ],
 })
 export class MyTestComponent3Component {
   constructor(private myTestDataService: MyTestDataService) {}

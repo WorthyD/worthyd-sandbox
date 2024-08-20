@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
+// @Injectable(
+//   {
+//   providedIn: 'root',
+// })
 export class MyTestDataService {
   counter = 0;
   increment() {

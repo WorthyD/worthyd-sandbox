@@ -14,6 +14,9 @@ import {
   styleUrl: './storage-component.component.scss',
 })
 export class StorageComponentComponent {
+  displayModel = '';
+  model = { name: '' };
+
   constructor(
     public storage: DataStoreClass,
     @Inject(DATA_STORES_CLASSES) public storages: DataStoreClasses[],
@@ -23,8 +26,7 @@ export class StorageComponentComponent {
     console.log('DATA_STORES_CLASSES', storages.length);
     console.log('DATA_STORES_CLASSES 2', storages2.length);
   }
-  displayModel = '';
-  model = { name: '' };
+
   onSubmit() {
     this.storage.set('name', this.model.name, '');
     this.updateUI();

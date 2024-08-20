@@ -28,9 +28,9 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     //importProvidersFrom(HttpClientModule),
 
-    // -------------------- Providing Services
-    //MyTestDataService,
-    { provide: MyTestDataService, useClass: MyTestDataMockService },
+    // -------------------- Providing Services  ------------------------
+    MyTestDataService,
+    //{ provide: MyTestDataService, useClass: MyTestDataMockService },
     // {
     //   provide: MyTestDataService,
     //   useFactory: () => new MyTestDataMockServiceClass(),

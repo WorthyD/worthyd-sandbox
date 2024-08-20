@@ -9,6 +9,15 @@ export class MyTestDataMockService implements MyTestDataServiceInterface {
     {
       name: 'Test User 1',
     },
+    {
+      name: 'Test User 2',
+    },
+    {
+      name: 'Test User 3',
+    },
+    {
+      name: 'Test User 4',
+    },
   ];
 
   getData(): Observable<User[]> {

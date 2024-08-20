@@ -1,19 +1,18 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MyProvderTesterChildComponent } from '../my-provder-tester-child/my-provder-tester-child.component';
+import { MyProviderTesterChildComponent } from './my-provider-tester-child.component';
 import { ProviderServiceService } from '../services/provider-service.service';
 
 @Component({
-  selector: 'app-my-provder-tester',
+  selector: 'app-my-provider-tester',
   standalone: true,
-  imports: [CommonModule, MyProvderTesterChildComponent],
+  imports: [CommonModule, MyProviderTesterChildComponent],
   providers: [
     {
       provide: ProviderServiceService,
       useFactory: () => new ProviderServiceService('Parent Component'),
     },
   ],
-  templateUrl: './my-provder-tester.component.html',
-  styleUrl: './my-provder-tester.component.css',
+  template: '<app-my-provider-tester-child></app-my-provider-tester-child>',
 })
-export class MyProvderTesterComponent {}
+export class MyProviderTesterComponent {}

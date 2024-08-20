@@ -18,16 +18,13 @@ import { User } from '../models/my-test-data-model';
       </li>
       }
     </ul>
-
     }@else{
     <h3>Loading....</h3>
     }
-
   `,
 })
 export class MyTestComponentComponent {
   constructor(private myTestDataService: MyTestDataService) {}
 
   users$: Observable<User[]> = this.myTestDataService.getData();
-
 }
