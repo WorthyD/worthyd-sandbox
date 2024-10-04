@@ -6,6 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ColorDisplayPipe implements PipeTransform {
   transform(value: string): unknown {
+    // YES IT IS A SWITCH CASE DEAL WITH IT JON/RYAN/AND WHOMEVER ELSE!
     switch (value) {
       case 'Y':
         return '🟨';

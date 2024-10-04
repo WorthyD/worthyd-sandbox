@@ -1,4 +1,9 @@
-import { TestBed } from '@angular/core/testing';
+
+/**
+ *
+ * This is mostly just a playground for testing the scoring engine.
+ *
+*/
 
 import { ScoreEngineService } from './score-engine.service';
 

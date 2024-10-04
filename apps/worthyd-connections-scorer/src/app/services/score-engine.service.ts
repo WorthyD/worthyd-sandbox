@@ -76,11 +76,6 @@ export class ScoreEngineService {
       totalScore: guessScoring.reduce((a, b) => a + b, 0)
     };
 
-    // Strip puzzle item
-    // Break apart array
-    // Generate Score Array
-    // Generate row score
-    // Return Object with item array and score array
   }
 
   calculateCompleteScore(guessRows: string[][]): number[] {
