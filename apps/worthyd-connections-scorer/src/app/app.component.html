@@ -1,0 +1,32 @@
+<div class="container">
+  <div>
+    <form [formGroup]="connectionsForm" (ngSubmit)="onSubmit()">
+      <label for="connectionsResult">Share Results: </label>
+      <textarea id="connectionsResult" formControlName="connectionsResult"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div>
+    @if(results){
+
+    <div>
+      @for(guess of results.guesses; track $index){
+      <div class="guess-row">
+        <div>
+          @for(item of guess.guess; track $index){
+          <span>{{ item | colorDisplay }}</span>
+          }
+        </div>
+        <div> - </div>
+        <div>
+          {{ guess.guessValue }}
+        </div>
+      </div>
+      }
+    </div>
+    <div>total: {{ results.totalScore }}</div>
+
+    }
+  </div>
+</div>

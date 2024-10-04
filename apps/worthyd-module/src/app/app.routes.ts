@@ -11,11 +11,11 @@ export const appRoutes: Route[] = [
   {
     path: 'test',
     component: MyProviderTesterComponent,
-    providers: [
-      {
-        provide: ProviderServiceService,
-        useFactory: () => new ProviderServiceService('Routes'),
-      },
-    ],
+    // providers: [
+    //   {
+    //     provide: ProviderServiceService,
+    //     useFactory: () => new ProviderServiceService('Routes'),
+    //   },
+    // ],
   },
 ];

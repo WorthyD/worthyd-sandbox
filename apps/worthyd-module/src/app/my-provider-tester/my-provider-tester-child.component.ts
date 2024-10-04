@@ -6,12 +6,12 @@ import { ProviderServiceService } from '../services/provider-service.service';
   selector: 'app-my-provider-tester-child',
   standalone: true,
   imports: [CommonModule],
-  providers: [
-    {
-      provide: ProviderServiceService,
-      useFactory: () => new ProviderServiceService('Child Component'),
-    },
-  ],
+  // providers: [
+  //   {
+  //     provide: ProviderServiceService,
+  //     useFactory: () => new ProviderServiceService('Child Component'),
+  //   },
+  // ],
 
   template: `
     <h2>Provided From : {{ fromWhere }}</h2>

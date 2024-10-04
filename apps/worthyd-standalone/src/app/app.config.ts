@@ -30,17 +30,17 @@ export const appConfig: ApplicationConfig = {
 
     // -------------------- Providing Services  ------------------------
     MyTestDataService,
-    //{ provide: MyTestDataService, useClass: MyTestDataMockService },
-    // {
-    //   provide: MyTestDataService,
-    //   useFactory: () => new MyTestDataMockServiceClass(),
-    // },
+         { provide: MyTestDataService, useClass: MyTestDataMockService },
+    {
+      provide: MyTestDataService,
+      useFactory: () => new MyTestDataMockServiceClass(),
+    },
 
     // ------------------------- Storage useClass Provider   ---------------------------
     {
       provide: DataStoreClass,
       useClass: LocalStorageService,
-      //useClass: CookieStorageService,
+      // useClass: CookieStorageService,
       //useClass: IdbKeyValService,
     },
 
@@ -73,6 +73,5 @@ export const appConfig: ApplicationConfig = {
       useClass: CookieStorageService,
       multi: true,
     },
-
   ],
 };

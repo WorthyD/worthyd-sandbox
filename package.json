@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "module": "nx run worthyd-module:serve --port=4323",
-    "standalone": "nx run worthyd-standalone:serve --port=4322"
+    "standalone": "nx run worthyd-standalone:serve --port=4322",
+    "connections": "nx run worthyd-connections-scorer:serve --port=4324"
   },
   "private": true,
   "dependencies": {
