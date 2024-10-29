@@ -124,7 +124,7 @@ export class ScoreEngineService {
   }
 
   calculateScore(colorValue: number, guessModifier: number, guessIndexModifier: number) {
-    return colorValue * guessModifier * guessIndexModifier;
+    return Math.ceil( colorValue * guessModifier * guessIndexModifier);
   }
 
   replaceColors(row: string): string {

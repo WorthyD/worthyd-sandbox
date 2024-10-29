@@ -1,0 +1,48 @@
+main {
+  max-width: 480px;
+  margin: 20px auto;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 20px 0;
+
+  form {
+    label {
+      display: block;
+    }
+    textarea {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .guess-row {
+    display: flex;
+  }
+  .total {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 720px) {
+  .container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+
+    > div {
+      flex: 1;
+      padding: 2rem;
+    }
+    .form {
+      max-width: 175px;
+    }
+    .results {
+      padding-top: 25px;
+      padding-left: 25px;
+    }
+  }
+}

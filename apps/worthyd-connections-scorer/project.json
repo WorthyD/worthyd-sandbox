@@ -18,7 +18,8 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/worthyd-connections-scorer/src/favicon.ico",
-          "apps/worthyd-connections-scorer/src/assets"
+          "apps/worthyd-connections-scorer/src/assets",
+          "apps/worthyd-connections-scorer/src/_redirects"
         ],
         "styles": ["apps/worthyd-connections-scorer/src/styles.scss"],
         "scripts": []

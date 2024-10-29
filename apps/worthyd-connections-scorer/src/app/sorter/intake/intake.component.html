@@ -1,0 +1,18 @@
+<main>
+  <div class="container">
+    <section>
+      <textarea>
+      const spanList = [...document.querySelectorAll('[data-testid="card-label"')];
+spanList.map((x)=>  x.innerText).join(',')
+    </textarea
+      >
+    </section>
+    <section class="form">
+      <form [formGroup]="connectionsForm" (ngSubmit)="onSubmit()">
+        <label for="connectionsResult">: </label>
+        <textarea id="connectionsResult" formControlName="connectionsResult"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+</main>
