@@ -22,44 +22,32 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "60901680939730831"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
-      },
-      {
-        "file": ".github/connections-cicd.yml",
-        "hash": "3894195089555450221"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "14890969858024274592"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
       },
       {
         "file": "package-lock.json",
         "hash": "259590667962066833"
       },
       {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": "scripts/connections.ts",
-        "hash": "6844352602090374420"
-      },
-      {
         "file": "README.md",
         "hash": "5124598621725317659"
       },
       {
-        "file": ".prettierrc",
-        "hash": "8285155608347884907"
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "7544409015863045561"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "14890969858024274592"
       },
       {
         "file": "tsconfig.base.json",
@@ -70,12 +58,24 @@
         "hash": "11532813898455409296"
       },
       {
-        "file": "package.json",
-        "hash": "8742996450957862286"
+        "file": ".prettierrc",
+        "hash": "8285155608347884907"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "7544409015863045561"
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
+      },
+      {
+        "file": ".github/workflows/connections-cicd.yml",
+        "hash": "3894195089555450221"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "60901680939730831"
+      },
+      {
+        "file": "package.json",
+        "hash": "8742996450957862286"
       },
       {
         "file": "nx.json",
@@ -86,8 +86,8 @@
         "hash": "7473220183190921152"
       },
       {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
+        "file": "scripts/connections.ts",
+        "hash": "6844352602090374420"
       }
     ],
     "projectFileMap": {
