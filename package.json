@@ -5,7 +5,8 @@
   "scripts": {
     "module": "nx run worthyd-module:serve --port=4323",
     "standalone": "nx run worthyd-standalone:serve --port=4322",
-    "connections": "nx run worthyd-connections-scorer:serve --port=4324"
+    "connections": "nx run worthyd-connections-scorer:serve --port=4324",
+    "connections-today": "ts-node ./scripts/connections.ts"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,9 @@
     "@angular/platform-browser-dynamic": "18.2.9",
     "@angular/router": "18.2.9",
     "@nx/angular": "20.0.6",
+    "date-fns": "^4.1.0",
     "idb-keyval": "^6.2.1",
+    "request": "^2.88.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "0.14.10"
@@ -60,7 +63,7 @@
     "nx": "20.0.6",
     "prettier": "^2.6.2",
     "ts-jest": "^29.1.0",
-    "ts-node": "10.9.1",
+    "ts-node": "^10.9.1",
     "typescript": "5.5.4"
   }
 }

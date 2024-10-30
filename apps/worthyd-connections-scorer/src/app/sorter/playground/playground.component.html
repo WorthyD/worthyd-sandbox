@@ -1,5 +1,1 @@
-@for (item of words$ | async; track $index) {
-<div class="word" cdkDrag>
-  {{ item }}
-</div>
-}
+<app-drag-and-drop [words]="words$ | async"></app-drag-and-drop>

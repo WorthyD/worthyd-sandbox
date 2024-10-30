@@ -1,6 +1,7 @@
 <main>
   <div class="container">
     <section>
+      <label for="connectionsResult">Paste in Console: </label>
       <textarea>
       const spanList = [...document.querySelectorAll('[data-testid="card-label"')];
 spanList.map((x)=>  x.innerText).join(',')
@@ -9,7 +10,7 @@ spanList.map((x)=>  x.innerText).join(',')
     </section>
     <section class="form">
       <form [formGroup]="connectionsForm" (ngSubmit)="onSubmit()">
-        <label for="connectionsResult">: </label>
+        <label for="connectionsResult">Words: </label>
         <textarea id="connectionsResult" formControlName="connectionsResult"></textarea>
         <button type="submit">Submit</button>
       </form>

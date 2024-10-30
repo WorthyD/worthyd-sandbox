@@ -8,17 +8,17 @@ main {
   margin: 20px 0;
 
   form {
-    label {
-      display: block;
-    }
-    textarea {
-      width: 150px;
-      height: 150px;
-      display: block;
-      margin-bottom: 1rem;
-    }
-  }
 
+  }
+  label {
+    display: block;
+  }
+  textarea {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 1rem;
+  }
   .guess-row {
     display: flex;
   }

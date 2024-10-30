@@ -22,148 +22,114 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
+        "file": ".vscode/extensions.json",
+        "hash": "60901680939730831"
       },
       {
         "file": ".prettierignore",
         "hash": "135344717789917661"
       },
       {
-        "file": ".prettierrc",
-        "hash": "8285155608347884907"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "60901680939730831"
-      },
-      {
-        "file": "README.md",
-        "hash": "5124598621725317659"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "7544409015863045561"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
+        "file": ".github/connections-cicd.yml",
+        "hash": "3894195089555450221"
       },
       {
         "file": "migrations.json",
         "hash": "14890969858024274592"
       },
       {
-        "file": "nx.json",
-        "hash": "5060979984715691456"
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
       },
       {
         "file": "package-lock.json",
-        "hash": "938483399593882801"
+        "hash": "259590667962066833"
       },
       {
-        "file": "package.json",
-        "hash": "15611724221945519382"
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": "scripts/connections.ts",
+        "hash": "6844352602090374420"
+      },
+      {
+        "file": "README.md",
+        "hash": "5124598621725317659"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "8285155608347884907"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": "package.json",
+        "hash": "8742996450957862286"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "7544409015863045561"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5060979984715691456"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
       }
     ],
     "projectFileMap": {
-      "worthyd-sandbox-e2e": [
+      "worthyd-module-e2e": [
         {
-          "file": "apps/worthyd-sandbox-e2e/.eslintrc.json",
+          "file": "apps/worthyd-module-e2e/.eslintrc.json",
           "hash": "10799368048025705622"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/cypress.config.ts",
-          "hash": "10008361971473455224",
+          "file": "apps/worthyd-module-e2e/cypress.config.ts",
+          "hash": "16450107489928867181",
           "deps": [
             "npm:@nx/cypress",
             "npm:cypress"
           ]
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/project.json",
-          "hash": "5422371329696502928"
+          "file": "apps/worthyd-module-e2e/project.json",
+          "hash": "11560049888882472866"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/src/e2e/app.cy.ts",
-          "hash": "17498201707351647811"
+          "file": "apps/worthyd-module-e2e/src/e2e/app.cy.ts",
+          "hash": "13752380761824135698"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/src/fixtures/example.json",
+          "file": "apps/worthyd-module-e2e/src/fixtures/example.json",
           "hash": "13882982864087580737"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/src/support/app.po.ts",
+          "file": "apps/worthyd-module-e2e/src/support/app.po.ts",
           "hash": "5364106453863571025"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/src/support/commands.ts",
+          "file": "apps/worthyd-module-e2e/src/support/commands.ts",
           "hash": "7570864621153670540"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/src/support/e2e.ts",
+          "file": "apps/worthyd-module-e2e/src/support/e2e.ts",
           "hash": "14369563060992369541"
         },
         {
-          "file": "apps/worthyd-sandbox-e2e/tsconfig.json",
-          "hash": "8511929940695645841"
-        }
-      ],
-      "worthyd-standalone-e2e": [
-        {
-          "file": "apps/worthyd-standalone-e2e/.eslintrc.json",
-          "hash": "10799368048025705622"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/cypress.config.ts",
-          "hash": "8329604104274149230",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/project.json",
-          "hash": "16692433936609437227"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/src/e2e/app.cy.ts",
-          "hash": "4878217478197818396"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/src/fixtures/example.json",
-          "hash": "13882982864087580737"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/src/support/app.po.ts",
-          "hash": "5364106453863571025"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/src/support/commands.ts",
-          "hash": "7570864621153670540"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/src/support/e2e.ts",
-          "hash": "14369563060992369541"
-        },
-        {
-          "file": "apps/worthyd-standalone-e2e/tsconfig.json",
+          "file": "apps/worthyd-module-e2e/tsconfig.json",
           "hash": "8511929940695645841"
         }
       ],
@@ -370,282 +336,6 @@
         {
           "file": "apps/worthyd-standalone/tsconfig.spec.json",
           "hash": "1930986853382524452"
-        }
-      ],
-      "worthyd-connections-scorer": [
-        {
-          "file": "apps/worthyd-connections-scorer/.eslintrc.json",
-          "hash": "9841770291056711405"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/jest.config.ts",
-          "hash": "15657736695680643984"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/project.json",
-          "hash": "16084586579023263685"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/_redirects",
-          "hash": "1043623441615875955"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/app.component.html",
-          "hash": "16660521701194831472"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/app.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/app.component.spec.ts",
-          "hash": "6468336334900854902",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/app.component.ts",
-          "hash": "5872889240501004349",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/forms"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/app.config.ts",
-          "hash": "7608249891914835571",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/app.routes.ts",
-          "hash": "3511696753882473273",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/color-display.pipe.spec.ts",
-          "hash": "4956587697633302184"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/color-display.pipe.ts",
-          "hash": "17230482522783645638",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/nx-welcome.component.ts",
-          "hash": "5935495112348154270",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.html",
-          "hash": "18294125042417116195"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.scss",
-          "hash": "9740545455279895952"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.spec.ts",
-          "hash": "4232628222727094980",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.ts",
-          "hash": "5538521502939504521",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/services/score-engine.service.spec.ts",
-          "hash": "17974264186090980053"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/services/score-engine.service.ts",
-          "hash": "6569200479466683376",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.html",
-          "hash": "2485219952520160656"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.scss",
-          "hash": "9740545455279895952"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.spec.ts",
-          "hash": "6124670324005917028",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.ts",
-          "hash": "888910932459378053",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.html",
-          "hash": "2041471737141521465"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.spec.ts",
-          "hash": "8866930635876145556",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.ts",
-          "hash": "2269129468179372738",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.html",
-          "hash": "10996453241688368606"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.scss",
-          "hash": "16302583128562544580"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.spec.ts",
-          "hash": "7030454874329441790",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.ts",
-          "hash": "2327636972964312458",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:rxjs",
-            "npm:@angular/cdk"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/index.html",
-          "hash": "15180053327547814498"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/main.ts",
-          "hash": "875041330523952236",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/styles.scss",
-          "hash": "391046236258202026"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/src/test-setup.ts",
-          "hash": "10765977267162271731",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/tsconfig.app.json",
-          "hash": "15840844869456775012"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/tsconfig.editor.json",
-          "hash": "17575078801745175164"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/tsconfig.json",
-          "hash": "12282366317280817438"
-        },
-        {
-          "file": "apps/worthyd-connections-scorer/tsconfig.spec.json",
-          "hash": "1930986853382524452"
-        }
-      ],
-      "worthyd-module-e2e": [
-        {
-          "file": "apps/worthyd-module-e2e/.eslintrc.json",
-          "hash": "10799368048025705622"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/cypress.config.ts",
-          "hash": "16450107489928867181",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/worthyd-module-e2e/project.json",
-          "hash": "11560049888882472866"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/src/e2e/app.cy.ts",
-          "hash": "13752380761824135698"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/src/fixtures/example.json",
-          "hash": "13882982864087580737"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/src/support/app.po.ts",
-          "hash": "5364106453863571025"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/src/support/commands.ts",
-          "hash": "7570864621153670540"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/src/support/e2e.ts",
-          "hash": "14369563060992369541"
-        },
-        {
-          "file": "apps/worthyd-module-e2e/tsconfig.json",
-          "hash": "8511929940695645841"
         }
       ],
       "worthyd-sandbox": [
@@ -918,6 +608,48 @@
           "hash": "1930986853382524452"
         }
       ],
+      "worthyd-standalone-e2e": [
+        {
+          "file": "apps/worthyd-standalone-e2e/.eslintrc.json",
+          "hash": "10799368048025705622"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/cypress.config.ts",
+          "hash": "8329604104274149230",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/project.json",
+          "hash": "16692433936609437227"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/src/e2e/app.cy.ts",
+          "hash": "4878217478197818396"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/src/fixtures/example.json",
+          "hash": "13882982864087580737"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/src/support/commands.ts",
+          "hash": "7570864621153670540"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/src/support/e2e.ts",
+          "hash": "14369563060992369541"
+        },
+        {
+          "file": "apps/worthyd-standalone-e2e/tsconfig.json",
+          "hash": "8511929940695645841"
+        }
+      ],
       "worthyd-connections-scorer-e2e": [
         {
           "file": "apps/worthyd-connections-scorer-e2e/.eslintrc.json",
@@ -958,6 +690,334 @@
         {
           "file": "apps/worthyd-connections-scorer-e2e/tsconfig.json",
           "hash": "8511929940695645841"
+        }
+      ],
+      "worthyd-sandbox-e2e": [
+        {
+          "file": "apps/worthyd-sandbox-e2e/.eslintrc.json",
+          "hash": "10799368048025705622"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/cypress.config.ts",
+          "hash": "10008361971473455224",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/project.json",
+          "hash": "5422371329696502928"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/src/e2e/app.cy.ts",
+          "hash": "17498201707351647811"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/src/fixtures/example.json",
+          "hash": "13882982864087580737"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/src/support/commands.ts",
+          "hash": "7570864621153670540"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/src/support/e2e.ts",
+          "hash": "14369563060992369541"
+        },
+        {
+          "file": "apps/worthyd-sandbox-e2e/tsconfig.json",
+          "hash": "8511929940695645841"
+        }
+      ],
+      "worthyd-connections-scorer": [
+        {
+          "file": "apps/worthyd-connections-scorer/.eslintrc.json",
+          "hash": "9841770291056711405"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/jest.config.ts",
+          "hash": "15657736695680643984"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/project.json",
+          "hash": "16084586579023263685"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/_redirects",
+          "hash": "1043623441615875955"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/app.component.html",
+          "hash": "1149335706330900400"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/app.component.scss",
+          "hash": "1401419776984041676"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/app.component.spec.ts",
+          "hash": "6468336334900854902",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/app.component.ts",
+          "hash": "5872889240501004349",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/app.config.ts",
+          "hash": "3161501265361327070",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/app.routes.ts",
+          "hash": "11225796690689116221",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/color-display.pipe.spec.ts",
+          "hash": "4956587697633302184"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/color-display.pipe.ts",
+          "hash": "17230482522783645638",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/nx-welcome.component.ts",
+          "hash": "5935495112348154270",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.html",
+          "hash": "34119440598334264"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.scss",
+          "hash": "9740545455279895952"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.spec.ts",
+          "hash": "4232628222727094980",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/scorer/scorer.component.ts",
+          "hash": "5538521502939504521",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/services/score-engine.service.spec.ts",
+          "hash": "17974264186090980053"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/services/score-engine.service.ts",
+          "hash": "6569200479466683376",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/drag-and-drop/drag-and-drop.component.html",
+          "hash": "6511669830295183317"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/drag-and-drop/drag-and-drop.component.scss",
+          "hash": "14072112064490346925"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/drag-and-drop/drag-and-drop.component.spec.ts",
+          "hash": "2985515078184900430",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/drag-and-drop/drag-and-drop.component.ts",
+          "hash": "3631047454592979741",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.html",
+          "hash": "17980893089750010376"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.scss",
+          "hash": "6379231814626778853"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.spec.ts",
+          "hash": "6124670324005917028",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake/intake.component.ts",
+          "hash": "888910932459378053",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.html",
+          "hash": "17444412523191384789"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.spec.ts",
+          "hash": "8866930635876145556",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/intake2/intake2.component.ts",
+          "hash": "15133130997861652769",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:date-fns",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.html",
+          "hash": "1632258035899808978"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.scss",
+          "hash": "16302583128562544580"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.spec.ts",
+          "hash": "7030454874329441790",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/playground/playground.component.ts",
+          "hash": "5593629440167691734",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:@angular/cdk"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/today/today.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/today/today.component.html",
+          "hash": "13141123160517471346"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/today/today.component.spec.ts",
+          "hash": "5370676646133011603",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/app/sorter/today/today.component.ts",
+          "hash": "13487852212254124861",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/assets/words.json",
+          "hash": "15944860720121238558"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/index.html",
+          "hash": "15180053327547814498"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/main.ts",
+          "hash": "875041330523952236",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/styles.scss",
+          "hash": "391046236258202026"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/src/test-setup.ts",
+          "hash": "10765977267162271731",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/tsconfig.app.json",
+          "hash": "15840844869456775012"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/tsconfig.editor.json",
+          "hash": "17575078801745175164"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/tsconfig.json",
+          "hash": "291293250387284606"
+        },
+        {
+          "file": "apps/worthyd-connections-scorer/tsconfig.spec.json",
+          "hash": "1930986853382524452"
         }
       ]
     }

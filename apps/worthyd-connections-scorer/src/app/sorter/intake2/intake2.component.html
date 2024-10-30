@@ -1,1 +1,9 @@
-<p>intake2 works!</p>
+<div class="container">
+  <section class="form">
+    <form [formGroup]="connectionsForm" (ngSubmit)="onSubmit()">
+      <label for="connectionsResult"> </label>
+      <input id="puzzleNumber" formControlName="puzzleNumber" />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</div>

@@ -1,0 +1,11 @@
+<div class="arena">
+  @for (item of words; track $index) {
+  <div class="word" cdkDrag>
+    {{ item }}
+  </div>
+  }
+  <div class="word" cdkDrag style="background-color: #fbd400">Yellow (Easy)</div>
+  <div class="word" cdkDrag style="background-color: #69e352">Green (Medium)</div>
+  <div class="word" cdkDrag style="background-color: #5492ff">Blue (Hard)</div>
+  <div class="word" cdkDrag style="background-color: #df7bea">Purple (EXTREME)</div>
+</div>
