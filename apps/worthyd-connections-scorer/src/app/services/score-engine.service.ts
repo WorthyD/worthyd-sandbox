@@ -75,7 +75,6 @@ export class ScoreEngineService {
 
       totalScore: guessScoring.reduce((a, b) => a + b, 0)
     };
-
   }
 
   calculateCompleteScore(guessRows: string[][]): number[] {
@@ -83,11 +82,12 @@ export class ScoreEngineService {
     const totalGuesses = guessRows.length;
 
     guessRows.forEach((guessRow, index) => {
-      let guessIndex = index;
+      const guessIndex = index;
+      //let guessIndex = index;
       // Last guess needs to equal the previous one's value
-      if (index + 1 === totalGuesses) {
-        guessIndex--;
-      }
+      // if (index + 1 === totalGuesses) {
+      //   guessIndex--;
+      // }
       scoreArray.push(this.getScoreForRow(guessRow, guessIndex));
     });
     return scoreArray;
@@ -124,7 +124,7 @@ export class ScoreEngineService {
   }
 
   calculateScore(colorValue: number, guessModifier: number, guessIndexModifier: number) {
-    return Math.ceil( colorValue * guessModifier * guessIndexModifier);
+    return Math.ceil(colorValue * guessModifier * guessIndexModifier);
   }
 
   replaceColors(row: string): string {

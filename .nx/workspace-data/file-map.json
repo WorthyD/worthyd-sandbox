@@ -22,52 +22,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "259590667962066833"
-      },
-      {
-        "file": "README.md",
-        "hash": "5124598621725317659"
-      },
-      {
         "file": ".eslintrc.json",
         "hash": "4566917484430375526"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
       },
       {
         "file": "jest.config.ts",
         "hash": "7544409015863045561"
       },
       {
-        "file": "migrations.json",
-        "hash": "14890969858024274592"
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "scripts/connections.ts",
+        "hash": "6844352602090374420"
       },
       {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "8285155608347884907"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
-      },
-      {
-        "file": ".github/workflows/connections-cicd.yml",
-        "hash": "3894195089555450221"
+        "file": "README.md",
+        "hash": "5124598621725317659"
       },
       {
         "file": ".vscode/extensions.json",
@@ -78,16 +50,44 @@
         "hash": "8742996450957862286"
       },
       {
-        "file": "nx.json",
-        "hash": "5060979984715691456"
+        "file": ".github/workflows/connections-cicd.yml",
+        "hash": "3894195089555450221"
       },
       {
         "file": "jest.preset.js",
         "hash": "7473220183190921152"
       },
       {
-        "file": "scripts/connections.ts",
-        "hash": "6844352602090374420"
+        "file": ".prettierrc",
+        "hash": "8285155608347884907"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5060979984715691456"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "259590667962066833"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "14890969858024274592"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
       }
     ],
     "projectFileMap": {
@@ -842,7 +842,7 @@
         },
         {
           "file": "apps/worthyd-connections-scorer/src/app/services/score-engine.service.ts",
-          "hash": "6569200479466683376",
+          "hash": "14689534507763631961",
           "deps": [
             "npm:@angular/core"
           ]
