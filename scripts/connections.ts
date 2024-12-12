@@ -6,8 +6,7 @@ console.log('starting');
 const today = new Date();
 const year = today.getFullYear();
 const monthNumber = f.format(today, 'MM');
-//const dayNumber = f.format(today, 'dd');
-const dayNumber = '01'//f.format(today, 'dd');
+const dayNumber = f.format(today, 'dd');
 
 const url = `https://www.nytimes.com/svc/connections/v2/${year}-${monthNumber}-${dayNumber}.json`;
 
