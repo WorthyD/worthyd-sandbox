@@ -9,6 +9,8 @@ on:
     paths-ignore:
       - 'package.json'
       - 'CHANGELOG.md'
+  schedule:
+    - cron: '0 8 * * *'
 
   # Trigger on PR
   pull_request:
