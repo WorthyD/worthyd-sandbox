@@ -21,10 +21,18 @@ import { User } from '../models/my-test-data-model';
     }@else{
     <h3>Loading....</h3>
     }
-  `,
+
+    <button (click)="getData()">Click</button>
+  `
 })
 export class MyTestComponentComponent {
   constructor(private myTestDataService: MyTestDataService) {}
 
   users$: Observable<User[]> = this.myTestDataService.getData();
+
+  getData() {
+    this.myTestDataService.getData().subscribe(x => {
+      console.log('stuff', x);
+    });
+  }
 }
