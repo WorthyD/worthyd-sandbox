@@ -6,7 +6,8 @@
     "module": "nx run worthyd-module:serve --port=4323",
     "standalone": "nx run worthyd-standalone:serve --port=4322",
     "connections": "nx run worthyd-connections-scorer:serve --port=4324",
-    "connections-today": "ts-node ./scripts/connections.ts"
+    "connections-today": "ts-node ./scripts/connections.ts",
+    "connections-today": "ts-node ./scripts/connections"
   },
   "private": true,
   "dependencies": {
