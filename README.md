@@ -17,7 +17,7 @@ Run `npx nx serve worthyd-sandbox` to start the development server. Happy coding
 ## Build for production
 
 Run `npx nx build worthyd-sandbox` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
-
+d   
 ## Running tasks
 
 To execute tasks with Nx use the following syntax:
